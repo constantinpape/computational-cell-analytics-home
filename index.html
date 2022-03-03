@@ -34,9 +34,10 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav">
 				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#">Projects</a></li>
+				  <li><a href="#research">Research</a></li>
+				  <li><a href="#teaching">Teaching</a></li>
 				  <li><a href="#publications">Publications</a></li> 
-				  <li><a href="#">CV</a></li> 
+				  <li><a href="#cv">CV</a></li> 
 		  </ul>
 		</div>
 	  </div>
@@ -48,13 +49,15 @@
         <div class="row">
 
             <!-- Entries Column -->
-            <div class="col-md-8" style="height: 50vh;">
-                
-                <!-- Main Image -->
-                <img class="img-responsive" src="img/constantin_pape.jpg" alt="" width="200" height="400"><br>
+            <div class="col-md-8" style="height: 25vh;">
                 
                 <div style="margin-top:3%; text-align:justify;">                
-                    Lorem ipsum
+                    <img class="img-responsive" src="img/constantin_pape.jpg" alt="" width="150" height="225" align="left"><br>
+                    <p>I am a Juniorprofessor at Georg-August University Goettingen where I am a member of the <a href="https://uni-goettingen.de/en/619480.html">Institute of Computer Science</a> and <a href="https://www.uni-goettingen.de/en/634473.html">CIDAS</a>. I lead the research group for computational cell analytics. My research is focused on deep learning methods for computer vision, in particular segmentation, applied primarily to microscopy images.</p>
+
+                    <p>I have started my group in March 2022 and am looking for a PhD student, job ad will come soon!</p>
+
+                    <p>Previously, I have worked as a PostDoc at EMBL Heidelberg in the group of Anna Kreshuk and did my PhD at the University of Heidelberg under the supervision of Anna Kreshuk and Fred Hamprecht. During my PhD and PostDoc I have mainly worked on instance segmentation problems, with a focus on large volumetric electron microscopy data.</p>
                 </div>
             </div> 
 
@@ -62,7 +65,7 @@
             <div class="col-md-4">
                 <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Constantin Pape</b></div><br>
                 <p><b>constantin.pape@informatik.uni-goettingen.de</b><br>
-                <p>Institute for Informatics<br>
+                <p>Institute for Computer Science<br>
                 University of Goettingen<br>
                 <!--
                 Street<br>
@@ -79,14 +82,62 @@
               <dd><a href="https://github.com/constantinpape">Github</a></dd> 
               <dd><a href="https://twitter.com/cppape">Twitter</a></dd>
             </div>
+
+
+            <!-- Research -->
+            <div class="col-md-8" style="height: 25vh;">    
+                <h2 id="research">Research</h2>
+                <p>main research interests: minimal supervision for microscopy segmentation via domain adaptation and self-supervision, link to shallow2deep, spoco</p>
+
+                <p>boundary based instance segmentation algorithms, scalable, link to the relevant papers</p>
+
+                <p>collaborative projects, show images, link to Platy, Sponge, Covid work</p>
+
+                <p>open source and open science: modelzoo, mobie and ome.ngff</p>
+            </div>
+            
+
+            <!-- Teaching -->
+            <div class="col-md-8" style="height: 15vh;">    
+                <h2 id="teaching">Teaching</h2>
+                I give a lecture on deep learning for computer vision and hold seminars on advanced topics in deep learning and machine learning. Please check <a href="http://cs.ugoe.de/pape">UniVZ</a> for my current courses.
+            </div>
             
             
             <!-- Publications -->
-            <div class="col-md-8" style="height: 25vh;">    
+            <div class="col-md-8" style="height: 40vh;">    
                 <h2 id="publications">Publications</h2>
                 
+                Please find my full list of publications on <a href="https://scholar.google.com/citations?user=idkzOIUAAAAJ&hl=en">Google Scholar</a>. Below is a list of selected publications:
                 <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a> Names of the authors</li>
+                <li class="paper"><a href="https://doi.org/10.3389/fcomp.2022.805166">From Shallow to Deep: Exploiting Feature-Based Classifiers for Domain Adaptation in Semantic Segmentation, Frontiers in Computer Science (2022)</a>, Matskevych, Wolny, Pape and Kreshuk</li>
+                <li class="paper"><a href="https://doi.org/10.1126/science.abj2949">Profiling cellular diversity in sponges informs animal cell type and nervous system evolution, Science (2021)</a>, Musser, Schippers, Mizzon, Kohn, Pape et al.</li>
+                <li class="paper"><a href="https://doi.org/10.1016/j.cell.2021.07.017">Whole-body integration of gene expression and single-cell morphology, Cell (2021)</a>, Vergara, Pape, Meechan et al.</li>
+                <li class="paper"><a href="https://doi.org/10.1002/bies.202000257">Microscopy-based assay for semi-quantitative detection of SARS-CoV-2 specific antibdoes in human sera, BioEssays (2021)</a>, Pape, Remme et al.</li>
+                <li class="paper"><a href="https://doi.org/10.3389/fcomp.2019.00006">Leveraging domain Knowledge to improve microscopy image segmentation with lifted multicuts, Frontiers in Computer Science (2019)</a>, Pape et al.</li>
+                <li class="paper"><a href="https://openaccess.thecvf.com/content_ECCV_2018/html/Steffen_Wolf_The_Mutex_Watershed_ECCV_2018_paper.html">The mutex watershed: efficient, paramter-free image partitioing, ECCV (2018)</a>, Wolf, Pape et al.</li>
+                <li class="paper"><a href="https://openaccess.thecvf.com/content_ICCV_2017_workshops/w1/html/Pape_Solving_Large_Multicut_ICCV_2017_paper.html">Solving large multicut problems for connectomics via domain decomposition, ICCV Workshops (2017)</a>, Pape et al.</li>
+                <li class="paper"><a href="https://doi.org/10.1038/nmeth.4151">Multicut brings automated neurite segmentation closer to human performance, Nature Methods (2017)</a>, Beier, Pape et al.</li>
+                </ul>
+            
+            </div>
+            
+
+            <!-- CV -->
+            <div class="col-md-8" style="height: 25vh;">    
+                <h2 id="cv">CV</h2>
+                
+                <ul>
+                <li>2010-2013 Bachelor of Science, Physics, Ruprecht-Karls University Heidelberg</li>
+                <li>2013-2016 Master of Science, Physics, Ruprecht-Karls University Heidelberg</li>
+                <li>2016-2021 PhD, Physics, Ruprecht-Karls University Heidelberg
+                    <ul>
+                    <li>2017-2018 Visiting scientist, Janelia Research Campus</li>
+                    <li>2018-2021 Visiting scientist, EMBL Heidelberg
+                    </ul>
+                </li>
+                <li>2021-2022 PostDoctoral Fellow, EMBL Heidelberg</li>
+                <li>2022- Juniorprofessor, Georg-August University Goettingen</li>
                 </ul>
             
             </div>
