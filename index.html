@@ -7,7 +7,7 @@
 
 <html lang="en">
 <head>
-  <title>Constantin Pape - Juniorprofessor for Computational Cell Analytics</title>
+  <title>Constantin Pape - Computational Cell Analytics</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -53,7 +53,7 @@
                 
                 <div style="margin-top:3%; text-align:justify;">                
                     <img class="img-responsive" src="img/constantin_pape.jpg" alt="" width="150" height="225" align="left"><br>
-                    <p>I am a Juniorprofessor at Georg-August University Goettingen where I am a member of the <a href="https://uni-goettingen.de/en/619480.html">Institute of Computer Science</a> and <a href="https://www.uni-goettingen.de/en/634473.html">CIDAS</a>. I lead the research group for computational cell analytics. My research is focused on deep learning methods for computer vision, in particular segmentation, applied primarily to microscopy images.</p>
+                    <p>I am a Juniorprofessor at Georg-August University Goettingen and a member of the <a href="https://uni-goettingen.de/en/619480.html">Institute of Computer Science</a> and <a href="https://www.uni-goettingen.de/en/634473.html">CIDAS</a>. I lead the research group for <b>Computational Cell Analytics</b>. My research is focused on deep learning methods for computer vision, in particular segmentation, applied primarily to microscopy images.</p>
 
                     <p>I have started my group in March 2022 and am looking for a PhD student, job ad will come soon!</p>
 
@@ -85,15 +85,26 @@
 
 
             <!-- Research -->
-            <div class="col-md-8" style="height: 25vh;">    
+            <div class="col-md-8" style="height: 70vh;">    
                 <h2 id="research">Research</h2>
-                <p>main research interests: minimal supervision for microscopy segmentation via domain adaptation and self-supervision, link to shallow2deep, spoco</p>
+                <p>My main research interest is in high-quality segmentation methods for microscopy that require minimal supervision.
+                The adoption of deep learning has improved the quality of image analysis for microscopy dramatically in the last decade.
+                In the same period, the throughput, field of view and time resolution of microscopes has also increaded significantly, requiring the automation of key analysis steps, such as the identification of cells or other structures of interest through segmentation.
+                While deep-learning based methods yield high enough quality to achieve this automation in many instances, they require large amounts of (manually) annotated training data .
+                This limitation makes them impractical for many applications where no such training data is available and is too costly to create.
+                Fortunately, the last years have seen a large reseach interest in weak supervision, domain adaptation and self-supervision, which promises to make training of high-quality models with significantly less annotated data possible.
+                However, these methods are mostly developed for natural images and their adoption for microscopy has so far been limited.
+                I aim to bridge this gap, building on initial work for <a href="https://doi.org/10.3389/fcomp.2022.805166">domain adaptation</a>, <a href="https://arxiv.org/abs/2103.14572">weak supervision</a> and even <a href="https://arxiv.org/abs/2107.02600">reinforcement learning</a>.</p>
 
-                <p>boundary based instance segmentation algorithms, scalable, link to the relevant papers</p>
+                <img class="img-responsive" src="img/fig.jpg" alt="" width="350" height="350" align="right"><br>
+                <p>My previous research has been focused on boundary based instance segmentation. I have developed graph-based methods, using <a href="https://doi.org/10.1038/nmeth.4151">graph partitioning</a> and <a href="https://openaccess.thecvf.com/content_ECCV_2018/html/Steffen_Wolf_The_Mutex_Watershed_ECCV_2018_paper.html">fast heuristics</a>.
+                The initial focus of my work has been neuron segmentation in electron micrscopy (D), for which I have developed <a href="https://openaccess.thecvf.com/content_ICCV_2017_workshops/w1/html/Pape_Solving_Large_Multicut_ICCV_2017_paper.html">methods that scale to multi terayte volumes</a> and <a href="https://doi.org/10.3389/fcomp.2019.00006">can incorporate biological priors</a>.
+                These methods have been used in various life science applications: <a href="https://doi.org/10.1016/j.cell.2021.07.017">building a high resolution genetic and morphological atlas of P. dumerilii (A)</a >, <a href="https://doi.org/10.1126/science.abj2949">analyzing the morphology of precursor neural cells in sponges (B)</a > or <a href="https://doi.org/10.1002/bies.202000257">developing an imaging based SARS-CoV-2 antibody assay (C)</a >. I plan to continue this work
+                and make these methods available through easy-to-use tools in order to democratize the
+                access to large-scale volumetric segmentation.</p>
 
-                <p>collaborative projects, show images, link to Platy, Sponge, Covid work</p>
-
-                <p>open source and open science: modelzoo, mobie and ome.ngff</p>
+                <p>I am dedicated to open source and open science and am actively contributing to several related efforts. In particular, the <a href="https://bioimage.io/#/">bioimage.io modelzoo</a>, a resource to share deep learning models for microscopy image analysis and <a href="https://doi.org/10.1038/s41592-021-01326-w">ome.ngff</a>, a new image data format that supports efficient storage of large data and on-demand access in the cloud. Furthermore, I co-develop <a
+                    href="https://mobie.github.io/">MoBIE</a>, a Fiji plugin for exploring and sharing large multi-modal image data.</p>
             </div>
             
 
