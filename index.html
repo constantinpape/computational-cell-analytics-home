@@ -85,16 +85,9 @@
             <!-- Jobs, thesis, projects -->
             <div class="col-md-8">    
                 <h2 id="jobs_thesis">Jobs, thesis, student projects</h2>
-                <p>I am currently offering three master thesis topics on microscopy image analysis. For all three topics the potential starting date is the summer semester.
-                <ol>
-                    <li> <a href="https://docs.google.com/document/d/126Ih8_UkWH4ckKFItXB7cwxXQUfYG08_R3uaB8DTgMw/edit?usp=sharing">Self-supervised learning for cell classification</a> </li>
-                    <li> <a href="https://docs.google.com/document/d/17vC3x-MbeoeHTGIke9gkay_uN4tvWAR2nzEMnYNy42M/edit?usp=sharing">Self-supervised learning for cryo EM</a> This is a collaborative project with <a href="https://www.uni-goettingen.de/en/616529.html">the group of Ruben Fernandes Busnadiego</a> </li>
-                    <li> <a href="https://docs.google.com/document/d/1ErpHcRa3k3e-HC8QGNGzkFGZezl4p4nyEMk6tDrZRgQ/edit?usp=sharing">Large-scale EM reconstruction of a fruit-fly larva</a> This is a collaborative project with <a href="https://www.limes-institut-bonn.de/forschung/arbeitsgruppen/unit-1/abteilung-pankratz/abt-pankratz-startseite/">the group of Michael Pankratz at the University of Bonn</a> </li>
-                </ol>
+                <p>I am looking for a PhD student for a project on using vision foundation models for bioimage analysis. You can find a description of the project <a href="#foundation-models">below</a>. The official job announcement will go online soon, if you are interested in this project feel free to reach out already!  
                 </p>
-
-                <p>We are also looking for master students working on projects in deep learning for image analysis in cardiology, in collaboration with Dr. Hendrik Windel from the UMG and <a href="https://myofarm.de/">myofarm</a>.
-                    You can find an overview of the projects <a href="https://owncloud.gwdg.de/index.php/s/GZdYzDYEqSsfO0U">here</a>. Please reach out directly to Hendrik for more questions at hendrik.windel@med.uni-goettingen.de.
+                <p>I am currenrly not offering any master thesis, bachelor thesis or internship projects, but will offer new projects for the winter term 2023. You can check out an overview of previous projects <a href="https://pad.gwdg.de/s/RbV-wFaX3#">here</a>.
                 </p>
             </div>
 
@@ -102,17 +95,20 @@
             <!-- Research -->
             <div class="col-md-8"> 
                 <h2 id="research">Research</h2>
-                <p>My main research interest is in high-quality segmentation methods for microscopy that require minimal supervision.
-                The adoption of deep learning has improved the quality of image analysis for microscopy dramatically in the last decade.
-                In the same period, the throughput, field of view and time resolution of microscopes has also increaded significantly, requiring the automation of key analysis steps, such as the identification of cells or other structures of interest through segmentation.
-                While deep-learning based methods yield high enough quality to achieve this automation in many instances, they require large amounts of (manually) annotated training data .
-                This limitation makes them impractical for many applications where no such training data is available and is too costly to create.
-                Fortunately, the last years have seen a large reseach interest in weak supervision, domain adaptation and self-supervision, which promises to make training of high-quality models with significantly less annotated data possible.
-                However, these methods are mostly developed for natural images and their adoption for microscopy has so far been limited.
-                I aim to bridge this gap, building on initial work for <a href="https://doi.org/10.3389/fcomp.2022.805166">domain adaptation</a>, <a href="https://arxiv.org/abs/2103.14572">weak supervision</a> and even <a href="https://arxiv.org/abs/2107.02600">reinforcement learning</a>.</p>
+                <p>Our group's research goals is to develop deep learning based methods for advanced bioimage analysis. 
+                The goals include developing segmentation and tracking methods that require minimal supervision, interactive segmentation and tracking, as well as self-supervised representation learning for bioimage data.
+                We are further working on methods for protein structure reconstruction in identification from Cryo-EM and expansion microscopy data, and develop approaches for building shared represetations of imaging, genetic and clinical data.</p>
+                
+                <p>The adoption of deep learning has improved the quality of image analysis for microscopy dramatically in the last decade.
+                In the same period, the throughput, field of view and time resolution in microscopy has increaded significantly, requiring the automation of key analysis steps, such as the identification of cells through segmentation, following cells over time through tracking or classifying cells into distinct states.
+                While deep-learning based methods yield high enough quality to achieve automation for many applications they require large amounts of (manually) annotated training data .
+                This limitation makes them impractical for applications where no such training data is available and is too costly to create.
+                Fortunately, the last years have seen reseach interest in weak supervision, domain adaptation and self-supervision, which promises to make training of high-quality models with significantly less annotated data possible.
+                However, these methods are mostly developed for natural images and their adoption in microscopy has so far been limited.
+                We aim to bridge this gap, building on initial work for <a href="https://doi.org/10.3389/fcomp.2022.805166">domain adaptation</a>, <a href="https://arxiv.org/abs/2103.14572">weak supervision</a> and even <a href="https://arxiv.org/abs/2107.02600">reinforcement learning</a>.</p>
 
-                <img class="img-responsive" src="img/fig.jpg" alt="Image visualising 4 different image analysis resutlts." style="width:50%;" align="right"><br>
-                <p>My previous research has been focused on boundary based instance segmentation. I have developed graph-based methods, using <a href="https://doi.org/10.1038/nmeth.4151">graph partitioning</a> and <a href="https://openaccess.thecvf.com/content_ECCV_2018/html/Steffen_Wolf_The_Mutex_Watershed_ECCV_2018_paper.html">fast heuristics</a>.
+                <img class="img-responsive" src="img/fig.jpg" alt="Image visualising 4 different image analysis results." style="width:50%;" align="right"><br>
+                <p>My previous research has been focused on boundary based instance segmentation. I have developed graph-based methods based on <a href="https://doi.org/10.1038/nmeth.4151">globally optimal graph partitioning</a> and <a href="https://openaccess.thecvf.com/content_ECCV_2018/html/Steffen_Wolf_The_Mutex_Watershed_ECCV_2018_paper.html">fast heuristic partitioning</a>.
                 The initial focus of my work has been neuron segmentation in electron micrscopy (D), for which I have developed <a href="https://openaccess.thecvf.com/content_ICCV_2017_workshops/w1/html/Pape_Solving_Large_Multicut_ICCV_2017_paper.html">methods that scale to multi terayte volumes</a> and <a href="https://doi.org/10.3389/fcomp.2019.00006">can incorporate biological priors</a>.
                 These methods have been used in various life science applications: <a href="https://doi.org/10.1016/j.cell.2021.07.017">building a high resolution genetic and morphological atlas of P. dumerilii (A)</a >, <a href="https://doi.org/10.1126/science.abj2949">analyzing the morphology of precursor neural cells in sponges (B)</a > or <a href="https://doi.org/10.1002/bies.202000257">developing an imaging based SARS-CoV-2 antibody assay (C)</a >. I plan to continue this work
                 and make these methods available through easy-to-use tools in order to democratize the
@@ -121,8 +117,28 @@
                 <p>I am dedicated to open source and open science and am actively contributing to several related efforts. In particular, the <a href="https://bioimage.io/#/">bioimage.io modelzoo</a>, a resource to share deep learning models for microscopy image analysis and <a href="https://doi.org/10.1038/s41592-021-01326-w">ome.ngff</a>, a new image data format that supports efficient storage of large data and on-demand access in the cloud. Furthermore, I co-develop <a
                     href="https://mobie.github.io/">MoBIE</a>, a Fiji plugin for exploring and sharing large multi-modal image data.</p>
             </div>
-            
 
+            <!-- Segment Anything for microscopy project -->
+            <div class="col-md-8"> 
+                <h3 id="foundation-models">Foundation models for bioimaging</h3>
+                <p>Foundation models have become a focus of deep learning research in the last years. The term describes large architectures that were trained on large diverse datasets and can then be applied to solve many different tasks in a given field. These models have first become available in natural language processing (e.g. GPT3 and GPT4), but are now also emerging in computer vision (e.g. <a><href="https://arxiv.org/abs/2103.00020">CLIP</a>).</p>
+
+                <img class="img-responsive" src="img/segment-anything.gif" alt="Applying segment anything to microscopy data, enabling instance segmentation from bounding boxes." style="width:50%;" align="right"><br>
+                <p><a href="https://segment-anything.com/">Segment Anything</a>, a recently published vision foundation model, enables fully automated and interactive instance segmentation and works for a wide set of image modalities. We have found that it works well for microscopy data, even without further fine-tuning, and can speed up data annotation significantly. Motivated by this finding we are now developing <a href="https://github.com/computational-cell-analytics/micro-sam">Segment
+                    Anything for Microscopy</a>, a data annotation tool for biologists. The animation shows how it is ued to interactively segment cells from bounding box annotations.</p>
+
+                <p>The goal of this project is to further improve foundation models like Segment Anything for bioimaging data and develop them into an universal solution for segmentation and tracking problems. To achieve this goal you will:
+                <ul>
+                    <li>Develop methods to fine-tune Segment Anything (or similar models) on large microscopy datasets to improve their performance for our target applications. Building on recent methods for fine-tuning language foundation models such as <a href="https://arxiv.org/abs/2106.09685">LoRA</a>.</li>
+                    <li>Implement few-shot segmentation approaches that enable learning from interactive segmentation results and using them for automatic segmentation (and tracking) without having to train a new model.</li>
+                    <li>Build and improve tools for interactive segmentation and tracking based on (fine-tuned) vision foundation models.</li>
+                </ul>
+                </p>
+
+                <p>This project is funded by the Multiscale Bioimaging Cluster of Excellence (<a href="https://mbexc.de/de/">MBExC></a>). The methods will be developed in collaboration with other research groups within MBExC and will be applied to solve challenging image analysis problems they are facing.</p> 
+            
+            </div>
+            
             <!-- Teaching -->
             <div class="col-md-8">
                 <h2 id="teaching">Teaching</h2>
@@ -134,8 +150,16 @@
             <div class="col-md-8">    
                 <h2 id="publications">Publications</h2>
                 
-                Please find my full list of publications on <a href="https://scholar.google.com/citations?user=idkzOIUAAAAJ&hl=en">Google Scholar</a>. Below is a list of selected publications:
+                Please find the full list of publications on <a href="https://scholar.google.com/citations?user=idkzOIUAAAAJ&hl=en">Google Scholar</a>. Below is a list of selected publications:
+                <p><b>From our group:</b>
                 <ul>
+                <li class="paper"><a href="https://arxiv.org/abs/2303.11790">Probabilistic Domain Adaptation for Biomedical Image Segmentation, arXiv (2023)</a>, Archit and Pape</li>
+                </ul>
+                </p>
+
+                <p><b>From my PhD and PostDoc:</b>
+                <ul>
+                <li class="paper"><a href="https://www.nature.com/articles/s41592-023-01776-4">MoBIE: a Fiji plugin for sharing and exploration of multi-modal cloud-hosted big image data, Nature Methods (2023)</a>, Pape, Meechan et al.</li>
                 <li class="paper"><a href="https://doi.org/10.3389/fcomp.2022.805166">From Shallow to Deep: Exploiting Feature-Based Classifiers for Domain Adaptation in Semantic Segmentation, Frontiers in Computer Science (2022)</a>, Matskevych, Wolny, Pape and Kreshuk</li>
                 <li class="paper"><a href="https://doi.org/10.1126/science.abj2949">Profiling cellular diversity in sponges informs animal cell type and nervous system evolution, Science (2021)</a>, Musser, Schippers, Mizzon, Kohn, Pape et al.</li>
                 <li class="paper"><a href="https://doi.org/10.1016/j.cell.2021.07.017">Whole-body integration of gene expression and single-cell morphology, Cell (2021)</a>, Vergara, Pape, Meechan et al.</li>
@@ -145,6 +169,7 @@
                 <li class="paper"><a href="https://openaccess.thecvf.com/content_ICCV_2017_workshops/w1/html/Pape_Solving_Large_Multicut_ICCV_2017_paper.html">Solving large multicut problems for connectomics via domain decomposition, ICCV Workshops (2017)</a>, Pape et al.</li>
                 <li class="paper"><a href="https://doi.org/10.1038/nmeth.4151">Multicut brings automated neurite segmentation closer to human performance, Nature Methods (2017)</a>, Beier, Pape et al.</li>
                 </ul>
+                <p>
             
             </div>
             
@@ -167,7 +192,6 @@
                 </ul>
             
             </div>
-
             
         </div>
 
