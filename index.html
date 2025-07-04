@@ -7,7 +7,7 @@
 
 <html lang="en">
 <head>
-  <title>Constantin Pape - Computational Cell Analytics</title>
+  <title>Computational Cell Analytics (Research Group Constantin Pape)</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -54,7 +54,7 @@
                 <div style="margin-top:3%; text-align:justify;">                
                     <img class="img-responsive" src="img/constantin_pape.jpg" alt="Image of Constantin Pape" style="width:18%;margin:0px 10px" align="left"><br>
 
-                    <p>I am a Juniorprofessor at Georg-August University Göttingen and a member of the <a href="https://uni-goettingen.de/en/619480.html">Institute of Computer Science</a> and <a href="https://www.uni-goettingen.de/en/634473.html">CIDAS</a>. I lead the research group for <b>Computational Cell Analytics</b> since March 2022. My research is focused on deep learning methods for computer vision, in particular segmentation, applied primarily to microscopy images.</p>
+                    <p>I am a Juniorprofessor at Georg-August University Göttingen and a member of the <a href="https://uni-goettingen.de/en/619480.html">Institute of Computer Science</a> and <a href="https://www.uni-goettingen.de/en/634473.html">CIDAS</a>. I lead the research group for <b>Computational Cell Analytics</b> since March 2022. The research of my group is focused on deep learning for biology and medicine, especially for biomedical imaging.</p>
 
                     <p>Previously, I have worked as a PostDoc at EMBL Heidelberg in the group of Anna Kreshuk and did my PhD at the University of Heidelberg under the supervision of Anna Kreshuk and Fred Hamprecht. During my PhD and PostDoc I have mainly worked on instance segmentation problems, with a focus on large volumetric electron microscopy data.</p>
                 </div>
@@ -79,65 +79,99 @@
               <dd><a href="https://scholar.google.com/citations?user=idkzOIUAAAAJ&hl=en">Google Scholar</a></dd> 
               <dd><a href="https://github.com/constantinpape">Github (Personal)</a></dd>
               <dd><a href="https://github.com/computational-cell-analytics">Github (Group)</a></dd>
-              <dd><a href="https://twitter.com/cppape">Twitter</a></dd>
+              <dd><a href="https://bsky.app/profile/cppape.bsky.social">Bluesky</a></dd>
             </div>
             
             <!-- Jobs, thesis, projects -->
             <div class="col-md-8">    
-                <h2 id="jobs_thesis">Jobs, thesis, student projects</h2>
+                <h2 id="jobs">Jobs</h2>
                 <img class="img-responsive" src="img/logo.png" style="width:25%;margin:5px 5px" align="right"><br>
-                <p>We currently do not have any positions open in the group. And we are currently also not offering master or bachelor thesis projects. Previous topics have been on the development and application of deep learning methods for computer vision and microscopy. You can find a more detailed overview <a href="https://pad.gwdg.de/s/RbV-wFaX3#">here</a>. New projects will be offered in the winter term 2024. 
+                <p>We are looking for a PhD student and a PostDoc to work on a very exciting project to resolve the dynamics of biomolecules through super-resolution microscopy in a joint project with the <a href="https://www.mpinat.mpg.de/hell">department of Stephan Hell at the MPI-NAT</a>. The details can be found here: 
                 </p>
+                <ul>
+                    <li><a href="https://www.uni-goettingen.de/de/699491.html">PhD Position</a></li>
+                    <li><a href="https://www.uni-goettingen.de/de/699489.html">PostDoc Position</a></li>
+                </ul>
             </div>
 
+            <div class="col-md-8">    
+                <h2 id="thesis">Thesis and student projects</h2>
+                <p>We are currently not offering any thesis topics. Previous topics have been on the application of deep learning and computer vision in biology and medicine. You can find an overview of previous projects <a href="https://pad.gwdg.de/s/RbV-wFaX3#">here</a>. New projects will be offered in the winter term 2025.</p>
+            </div>
 
             <!-- Research -->
             <div class="col-md-8"> 
                 <h2 id="research">Research</h2>
-                <p>Our group's research goals is to develop deep learning based methods for advanced bioimage analysis. 
-                The goals include developing segmentation and tracking methods that require minimal supervision, interactive segmentation and tracking, as well as self-supervised representation learning for bioimage data.
-                We are further working on methods for protein structure reconstruction in identification from Cryo-EM and expansion microscopy data, and develop approaches for building shared represetations of imaging, genetic and clinical data.</p>
-                
-                <p>The adoption of deep learning has improved the quality of image analysis for microscopy dramatically in the last decade.
-                In the same period, the throughput, field of view and time resolution in microscopy has increaded significantly, requiring the automation of key analysis steps, such as the identification of cells through segmentation, following cells over time through tracking or classifying cells into distinct states.
-                While deep-learning based methods yield high enough quality to achieve automation for many applications they require large amounts of (manually) annotated training data .
-                This limitation makes them impractical for applications where no such training data is available and is too costly to create.
-                Fortunately, the last years have seen reseach interest in weak supervision, domain adaptation and self-supervision, which promises to make training of high-quality models with significantly less annotated data possible.
-                However, these methods are mostly developed for natural images and their adoption in microscopy has so far been limited.
-                We aim to bridge this gap, building on initial work for <a href="https://doi.org/10.3389/fcomp.2022.805166">domain adaptation</a>, <a href="https://arxiv.org/abs/2103.14572">weak supervision</a> and even <a href="https://arxiv.org/abs/2107.02600">reinforcement learning</a>.</p>
+                <p>We develop deep learning and AI methods for biology and medicine. We mainly develop computer vision methods for the analysis of biomedical image data, but are also interested in combining different modalities, such as image and omics data. Our two main research areas are building (vision) foundation models for biology and medicine and protein structure analysis in cryogenic electron microscopy and in super-resolution microscopy.
+                We apply these methods to challenging biomedical research questions in collaboration with life scientists.</p>
 
+                <p>We are dedicated to open source and open science and we are involved in multiple related efforts. In particular, the <a href="https://bioimage.io/#/">bioimage.io modelzoo</a>, a resource to share deep learning models for microscopy image analysis and <a href="https://doi.org/10.1038/s41592-021-01326-w">ome.ngff</a>, a new image data format that supports efficient storage of large data and on-demand access in the cloud, and <a
+                        href="https://mobie.github.io/">MoBIE</a>, a Fiji plugin for exploring and sharing large multi-modal image data.</p>
+
+                <p>Our research is funded and supported by the DFG through a Sachbeihilfe, the <a href="https://www.sfb1286.de/">SFB1286 on Quantitative Synaptology"</a>, and the Multiscale Bioimaging Cluster of Excellence (<a href="https://mbexc.de/de/">MBExC</a>). We are part of the <a href="https://caimed.de/en/">CAIMed consortium</a></p>
+            </div>
+             
+            <!-- Foundation models -->
+            <div class="col-md-8">
+                <h3 id="foundation-models">Foundation Models for Biomedical Imaging</h3>
+                <p>The term foundation models was coined for powerful deep learning models that can be applied to a wide range of tasks. It initially refered to large language models, such as (Chat)GPT, Claude, LLaMA, etc. Foundation models have now been introduced in many other domains, including computer vision for general purpose segmentation (<a href="https://segment-anything.com/">Segment Anything</a>), for connecting images and text
+                (<a><href="https://arxiv.org/abs/2103.00020">CLIP</a>), and for versatile image representations <a href="https://arxiv.org/abs/2304.07193">DINO v2</a>.</p>
+
+                <img class="img-responsive" src="img/segment-anything.gif" alt="Applying segment anything to microscopy data, enabling instance segmentation from bounding boxes." style="width:40%;" align="right"><br>
+                <p>One of our main goals is to develop such foundation models for biomedical imaging. In particular, we have created <a href="https://github.com/computational-cell-analytics/micro-sam">Segment Anything for Microscopy</a>, which enables state-of-the-art interactive and automatic segmentation for microscopy data. This work includes a popular graphical tool for image analysis, see interactive annotation with it on the right. We have extended this work
+                to <a href="https://arxiv.org/abs/2502.00408">Histopathology</a>, <a href="https://arxiv.org/abs/2501.11734">Medical Imaging</a>, and <a href="https://arxiv.org/abs/2502.00418">Efficient Finetuning</a>.</p>
+
+                <p>We also develop segmentation models for other applications, for example analysis of the synaptic ultrastructure in electron microscopy (<a href="https://www.biorxiv.org/content/10.1101/2024.12.02.626387v1.abstract">SynapseNet</a>). In the future, we plan to develop more powerful, multi-modal foundation models for biology, for example connecting images, omics data, and text.</p>
+            </div>
+            
+            <div class="col-md-8">
+                <h3 id="visual-proteomics">Visual Proteomics</h3>
+                <p>We are also developing methods for the analysis of protein structure in high-resolution microscopy, which includes both super-resolution microscopy and cryogenic electron microscopy. Here, we have contributed to accurate protein structure reconstructions from optical imaging with <a href="https://www.nature.com/articles/s41587-024-02431-9">ONE microscopy</a> and are working on methods for protein identification in cryogenic electron tomography.</p>
+            </div>
+
+            <div class="col-md-8">
+                <h3 id="prev-research">Previous Research</h3>
                 <img class="img-responsive" src="img/fig.jpg" alt="Image visualising 4 different image analysis results." style="width:50%;" align="right"><br>
                 <p>My previous research has been focused on boundary based instance segmentation. I have developed graph-based methods based on <a href="https://doi.org/10.1038/nmeth.4151">globally optimal graph partitioning</a> and <a href="https://openaccess.thecvf.com/content_ECCV_2018/html/Steffen_Wolf_The_Mutex_Watershed_ECCV_2018_paper.html">fast heuristic partitioning</a>.
                 The initial focus of my work has been neuron segmentation in electron micrscopy (D), for which I have developed <a href="https://openaccess.thecvf.com/content_ICCV_2017_workshops/w1/html/Pape_Solving_Large_Multicut_ICCV_2017_paper.html">methods that scale to multi terayte volumes</a> and <a href="https://doi.org/10.3389/fcomp.2019.00006">can incorporate biological priors</a>.
                 These methods have been used in various life science applications: <a href="https://doi.org/10.1016/j.cell.2021.07.017">building a high resolution genetic and morphological atlas of P. dumerilii (A)</a >, <a href="https://doi.org/10.1126/science.abj2949">analyzing the morphology of precursor neural cells in sponges (B)</a > or <a href="https://doi.org/10.1002/bies.202000257">developing an imaging based SARS-CoV-2 antibody assay (C)</a >. I plan to continue this work
                 and make these methods available through easy-to-use tools in order to democratize the
                 access to large-scale volumetric segmentation.</p>
-
-                <p>I am dedicated to open source and open science and am actively contributing to several related efforts. In particular, the <a href="https://bioimage.io/#/">bioimage.io modelzoo</a>, a resource to share deep learning models for microscopy image analysis and <a href="https://doi.org/10.1038/s41592-021-01326-w">ome.ngff</a>, a new image data format that supports efficient storage of large data and on-demand access in the cloud. Furthermore, I co-develop <a
-                    href="https://mobie.github.io/">MoBIE</a>, a Fiji plugin for exploring and sharing large multi-modal image data.</p>
             </div>
-
-            <!-- Segment Anything for microscopy project -->
-            <div class="col-md-8"> 
-                <h3 id="foundation-models">Foundation models for bioimaging</h3>
-                <p>Foundation models have become a focus of deep learning research in the last years. The term describes large architectures that were trained on large diverse datasets and can then be applied to solve many different tasks in a given field. These models have first become available in natural language processing (e.g. GPT3 and GPT4), but are now also emerging in computer vision (e.g. <a><href="https://arxiv.org/abs/2103.00020">CLIP</a>).</p>
-
-                <img class="img-responsive" src="img/segment-anything.gif" alt="Applying segment anything to microscopy data, enabling instance segmentation from bounding boxes." style="width:50%;" align="right"><br>
-                <p><a href="https://segment-anything.com/">Segment Anything</a>, a recently published vision foundation model, enables fully automated and interactive instance segmentation and works for a wide set of image modalities. We have found that it works well for microscopy data, even without further fine-tuning, and can speed up data annotation significantly. Motivated by this finding we are now developing <a href="https://github.com/computational-cell-analytics/micro-sam">Segment
-                    Anything for Microscopy</a>, a data annotation tool for biologists. The animation shows how it is ued to interactively segment cells from bounding box annotations.</p>
-
-                <p>The goal of this project is to further improve foundation models like Segment Anything for bioimaging data and develop them into an universal solution for segmentation and tracking problems. To achieve this goal you will:
+            
+            <!-- Publications -->
+            <div class="col-md-8">    
+                <h2 id="publications">Publications</h2>
+                
+                Please find an up-to-date list of publications on <a href="https://scholar.google.com/citations?user=idkzOIUAAAAJ&hl=en">Google Scholar</a>. Below is a list of selected publications:
+                <p><b>From our group:</b>
                 <ul>
-                    <li>Develop methods to fine-tune Segment Anything (or similar models) on large microscopy datasets to improve their performance for our target applications. Building on recent methods for fine-tuning language foundation models such as <a href="https://arxiv.org/abs/2106.09685">LoRA</a>.</li>
-                    <li>Implement few-shot segmentation approaches that enable learning from interactive segmentation results and using them for automatic segmentation (and tracking) without having to train a new model.</li>
-                    <li>Build and improve tools for interactive segmentation and tracking based on (fine-tuned) vision foundation models.</li>
+                <li class="paper"><a href="https://www.nature.com/articles/s41592-024-02580-4">Segment Anything for Microscopy, Nature Methods (2025)</a></li>
+                <li class="paper"><a href="https://arxiv.org/abs/2502.00408">Segment Anything for Histopathology, MIDL (2025)</a></li>
+                <li class="paper"><a href="https://arxiv.org/abs/2502.00418">Parameter Efficient Fine-Tuning of Segment Anything Model for Biomedical Imaging, MIDL (2025)</a></li>
+                <li class="paper"><a href="https://www.degruyterbrill.com/document/doi/10.1515/mim-2024-0021">Stamped Counting for Biomedical Images, Methods in Microscopy (2025)</a></li>
+                <li class="paper"><a href="https://doi.org/10.1101/2024.12.02.626387 ">SynapseNet: Deep Learning for Automatic Synapse Reconstruction, bioRxiv (2024)</a></li>
+                <li class="paper"><a href="https://arxiv.org/abs/2303.11790">Probabilistic Domain Adaptation for Biomedical Image Segmentation, arXiv (2023)</a></li>
+                <li class="paper"><a href="https://www.nature.com/articles/s41592-023-01776-4">MoBIE: a Fiji plugin for sharing and exploration of multi-modal cloud-hosted big image data, Nature Methods (2023)</a></li>
                 </ul>
                 </p>
 
-                <p>This project is funded by the Multiscale Bioimaging Cluster of Excellence (<a href="https://mbexc.de/de/">MBExC</a>). The methods will be developed in collaboration with other research groups within MBExC and will be applied to solve challenging image analysis problems they are facing.</p> 
+                <p><b>From my PhD and PostDoc:</b>
+                <ul>
+                <li class="paper"><a href="https://doi.org/10.3389/fcomp.2022.805166">From Shallow to Deep: Exploiting Feature-Based Classifiers for Domain Adaptation in Semantic Segmentation, Frontiers in Computer Science (2022)</a></li>
+                <li class="paper"><a href="https://doi.org/10.1126/science.abj2949">Profiling cellular diversity in sponges informs animal cell type and nervous system evolution, Science (2021)</a></li>
+                <li class="paper"><a href="https://doi.org/10.1016/j.cell.2021.07.017">Whole-body integration of gene expression and single-cell morphology, Cell (2021)</a></li>
+                <li class="paper"><a href="https://doi.org/10.1002/bies.202000257">Microscopy-based assay for semi-quantitative detection of SARS-CoV-2 specific antibdoes in human sera, BioEssays (2021)</a></li>
+                <li class="paper"><a href="https://doi.org/10.3389/fcomp.2019.00006">Leveraging domain Knowledge to improve microscopy image segmentation with lifted multicuts, Frontiers in Computer Science (2019)</a></li>
+                <li class="paper"><a href="https://openaccess.thecvf.com/content_ECCV_2018/html/Steffen_Wolf_The_Mutex_Watershed_ECCV_2018_paper.html">The mutex watershed: efficient, paramter-free image partitioing, ECCV (2018)</a></li>
+                <li class="paper"><a href="https://openaccess.thecvf.com/content_ICCV_2017_workshops/w1/html/Pape_Solving_Large_Multicut_ICCV_2017_paper.html">Solving large multicut problems for connectomics via domain decomposition, ICCV Workshops (2017)</a></li>
+                <li class="paper"><a href="https://doi.org/10.1038/nmeth.4151">Multicut brings automated neurite segmentation closer to human performance, Nature Methods (2017)</a></li>
+                </ul>
+                <p>
             
             </div>
             
+
             <!-- Teaching -->
             <div class="col-md-8">
                 <h2 id="teaching">Teaching</h2>
@@ -159,35 +193,6 @@
                 
                 <h3 id="dl-for-cv">Deep Learning in Biology and Medicine</h3>
                 <p>The seminar discusses advanced topics in applications of deep learning methods in biology and medicine. We cover applications in image analysis, structural biology (e.g. protein folding with Alpha Fold), large language models in medicine and more. The seminar is offered every summer term.</p>
-            </div>
-            
-            
-            <!-- Publications -->
-            <div class="col-md-8">    
-                <h2 id="publications">Publications</h2>
-                
-                Please find the full list of publications on <a href="https://scholar.google.com/citations?user=idkzOIUAAAAJ&hl=en">Google Scholar</a>. Below is a list of selected publications:
-                <p><b>From our group:</b>
-                <ul>
-                <li class="paper"><a href="https://www.biorxiv.org/content/10.1101/2023.08.21.554208v1.abstract">Segment Anything for Microscopy, bioRxiv (2023)</a>, Archit, ..., Pape</li>
-                <li class="paper"><a href="https://arxiv.org/abs/2303.11790">Probabilistic Domain Adaptation for Biomedical Image Segmentation, arXiv (2023)</a>, Archit and Pape</li>
-                </ul>
-                </p>
-
-                <p><b>From my PhD and PostDoc:</b>
-                <ul>
-                <li class="paper"><a href="https://www.nature.com/articles/s41592-023-01776-4">MoBIE: a Fiji plugin for sharing and exploration of multi-modal cloud-hosted big image data, Nature Methods (2023)</a>, Pape, Meechan et al.</li>
-                <li class="paper"><a href="https://doi.org/10.3389/fcomp.2022.805166">From Shallow to Deep: Exploiting Feature-Based Classifiers for Domain Adaptation in Semantic Segmentation, Frontiers in Computer Science (2022)</a>, Matskevych, Wolny, Pape and Kreshuk</li>
-                <li class="paper"><a href="https://doi.org/10.1126/science.abj2949">Profiling cellular diversity in sponges informs animal cell type and nervous system evolution, Science (2021)</a>, Musser, Schippers, Mizzon, Kohn, Pape et al.</li>
-                <li class="paper"><a href="https://doi.org/10.1016/j.cell.2021.07.017">Whole-body integration of gene expression and single-cell morphology, Cell (2021)</a>, Vergara, Pape, Meechan et al.</li>
-                <li class="paper"><a href="https://doi.org/10.1002/bies.202000257">Microscopy-based assay for semi-quantitative detection of SARS-CoV-2 specific antibdoes in human sera, BioEssays (2021)</a>, Pape, Remme et al.</li>
-                <li class="paper"><a href="https://doi.org/10.3389/fcomp.2019.00006">Leveraging domain Knowledge to improve microscopy image segmentation with lifted multicuts, Frontiers in Computer Science (2019)</a>, Pape et al.</li>
-                <li class="paper"><a href="https://openaccess.thecvf.com/content_ECCV_2018/html/Steffen_Wolf_The_Mutex_Watershed_ECCV_2018_paper.html">The mutex watershed: efficient, paramter-free image partitioing, ECCV (2018)</a>, Wolf, Pape et al.</li>
-                <li class="paper"><a href="https://openaccess.thecvf.com/content_ICCV_2017_workshops/w1/html/Pape_Solving_Large_Multicut_ICCV_2017_paper.html">Solving large multicut problems for connectomics via domain decomposition, ICCV Workshops (2017)</a>, Pape et al.</li>
-                <li class="paper"><a href="https://doi.org/10.1038/nmeth.4151">Multicut brings automated neurite segmentation closer to human performance, Nature Methods (2017)</a>, Beier, Pape et al.</li>
-                </ul>
-                <p>
-            
             </div>
             
 
